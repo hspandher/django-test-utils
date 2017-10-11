@@ -5,7 +5,7 @@ import shutil
 # inbuild django imports
 from django.http import HttpRequest
 from django.conf import settings
-from django.utils.importlib import import_module
+from django.utils.module_loading import import_module
 
 # third-party django imports
 from mongoengine.connection import (DEFAULT_CONNECTION_NAME, _connections, get_connection,
